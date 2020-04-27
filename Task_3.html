@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+    width: 700px;
+    height: 150px;
+    background-color: gray;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+}
+
+.div2{
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    border: 4px dashed red;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+
+.div3{
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    border-top: 4px red dashed;
+    border-left: 4px green solid;
+    border-bottom: 4px blue dashed;
+    position: absolute;
+    left: 250px;
+    bottom: -5px;
+}
+
+.div4{
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    position: absolute;
+    left: 250px;
+    border-left: solid 10px green;
+    border-right: solid 10px yellow;
+    border-top: solid 10px red;
+    border-bottom: solid 10px blue;
+}
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2">
+            <div class="div3">
+                <div class="div4"></div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
